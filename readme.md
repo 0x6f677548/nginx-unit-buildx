@@ -1,5 +1,3 @@
-Here's the revised README.md incorporating your feedback:
-
 # Nginx Unit Multi-Architecture Image Builder
 
 This repository contains a tool to build multi-architecture Docker images for [Nginx Unit](https://github.com/nginx/unit). It simplifies the process of creating and pushing images for various architectures to Docker Hub.
