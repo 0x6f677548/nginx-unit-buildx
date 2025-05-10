@@ -12,7 +12,7 @@
 #   make buildx-python3.11 PLATFORMS=linux/amd64,linux/amd64/v2,linux/amd64/v3,linux/arm64,linux/ppc64le,linux/s390x,linux/386,linux/arm/v7,linux/arm/v6 DOCKER_REPO=yourname/nginx-unit VARIANT=slim TAG_SUFFIX=-slim BUILD_OPTIONS= -f buildx.Makefile
 # 	make buildxall DOCKER_REPO=yourname/nginx-unit -f buildx.Makefile
 #   make buildxall PLATFORMS=linux/arm64 DOCKER_REPO=yourname/nginx-unit -f buildx.Makefile
-# authors: 0x6f677548
+# authors: Hugo Batista
 
 # docker hub repository (use your personal docker hub repo here) (ex: DOCKER_REPO=yourname/nginx-unit)
 DOCKER_REPO ?=

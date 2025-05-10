@@ -11,7 +11,7 @@
 # Example:
 #   make buildx-python3.11 PLATFORMS=linux/amd64,linux/arm64 DOCKER_REPO=yourname/nginx-unit
 #	make buildxall PLATFORMS=linux/amd64 DOCKER_REPO=yourname/nginx-unit 
-# authors: 0x6f677548
+# authors: Hugo Batista
 
 
 # Define the source Makefile (always buildx.Makefile)

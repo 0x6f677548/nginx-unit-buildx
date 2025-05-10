@@ -18,7 +18,7 @@ The main reason for this tool is that not all architectures are supported in the
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/0x6f677548/nginx-unit-buildx.git
+   git clone https://go.hugobatista.com/gh/nginx-unit-buildx.git
    cd nginx-unit-buildx
    ```
 
