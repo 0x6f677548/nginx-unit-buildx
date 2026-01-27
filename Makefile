@@ -29,7 +29,7 @@ all: copy_and_execute
 .PHONY: copy_and_execute
 copy_and_execute:
 	@echo "Cloning the nginx-unit repository to a temporary folder..."
-	@git clone --branch branches/packaging https://github.com/nginx/unit $(TEMP_FOLDER)
+	@git clone --branch packaging https://github.com/nginx/unit $(TEMP_FOLDER)
 	@echo "Copying the buildx.Makefile to the temporary folder..."
 	@cp $(SOURCE_MAKEFILE) $(TARGET_FOLDER)/ 
 	@$(MAKE) -C $(TARGET_FOLDER) -f $(SOURCE_MAKEFILE) $(MAKECMDGOALS)
