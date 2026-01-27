@@ -45,7 +45,7 @@ make buildxall PLATFORMS=linux/amd64 DOCKER_REPO=yourname/nginx-unit
 
 ## Pre-built Images
 
-Some multi-architecture images built by this tool can also be found pre-built at [https://hub.docker.com/r/0x6f677548/nginx-unit/tags](https://hub.docker.com/r/0x6f677548/nginx-unit/tags) (use at your own risk).
+Some multi-architecture images built by this tool can also be found pre-built at [https://go.hugobatista.com/docker/nginx-unit/tags](https://go.hugobatista.com/docker/nginx-unit/tags) (use at your own risk).
 
 ## Contributing
 
