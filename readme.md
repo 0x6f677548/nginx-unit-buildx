@@ -1,3 +1,5 @@
+⚠️ **ARCHIVED**: nginx-unit by NGINX has been officially discontinued and archived since October 2025. This repository is no longer maintained and is being kept for reference only.
+
 # Nginx Unit Multi-Architecture Image Builder
 
 This repository contains a tool to build multi-architecture Docker images for [Nginx Unit](https://github.com/nginx/unit). It simplifies the process of creating and pushing images for various architectures to Docker Hub.
